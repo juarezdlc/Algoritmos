@@ -1,0 +1,19 @@
+Proceso aprobados
+	Definir nombre Como Caracter
+	Definir practicas, parcial, final Como Entero 
+	Definir promedio Como Real
+	Escribir "Ingrese el nombre" 
+	Leer nombre
+	Escribir "Ingrese las notas de las prácticas" 
+	Leer practicas
+	Escribir "Ingrese la nota del parcial" 
+	Leer parcial
+	Escribir "Ingrese la nota del final"
+	Leer final
+	promedio = (practicas + parcial + 2*final)/4 
+	Si promedio >= 11.5 Entonces
+		Escribir "Nombres ", nombre 
+		Escribir "Promedio ", promedio
+	FinSi 
+FinProceso
+
